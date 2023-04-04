@@ -1,0 +1,80 @@
+body {margin:0;}
+main{
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #242222;
+}
+
+
+.nav li{
+  float: left;
+
+}
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: #111;
+}
+/* end nav */
+
+.container {
+  position:absolute;
+
+ 
+ 
+ 
+  padding: 20px;
+  
+}
+
+/* Full-width input fields */
+input{
+  width:400px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  outline: none;
+  font-size: 17px;
+}
+
+
+/* Set a style for the submit button */
+#subinput0{
+  background-color: #1d1f1e;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-size: 20px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+/* end form */
+.topright {
+  position: absolute;
+  top:80px;
+  right:16px;
+  font-size: 18px;
+}
+
