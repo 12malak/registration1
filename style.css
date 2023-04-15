@@ -48,7 +48,7 @@ input{
   width:400px;
   padding: 15px;
   margin: 5px 0 22px 0;
-  border: none;
+  /* border: none; */
   background: #f1f1f1;
   outline: none;
   font-size: 17px;
@@ -60,7 +60,7 @@ input{
   background-color: #1d1f1e;
   color: white;
   padding: 16px 20px;
-  border: none;
+  /* border: none; */
   cursor: pointer;
   width: 100%;
   opacity: 0.9;
